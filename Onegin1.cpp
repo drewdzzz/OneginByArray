@@ -73,7 +73,7 @@ void bubbleSort( char poem [SIZE][STRING_LIMIT], int arraySize)
             {
                 mySwap (poem, i, j);
                 #ifdef DEBUG
-                    printf("mySwapPED!\n");
+                    printf("SWAPPED!\n");
                 #endif
             }
 }
